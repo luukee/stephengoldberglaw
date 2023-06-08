@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/y8u94wtgt9ao/public_html/wp-content/themes/twenty-twenty-three-child
+    - /bin/cp style.css $DEPLOYPATH
